@@ -1,10 +1,11 @@
+import React from "react";
 import Head from "next/head";
 // import { ExpColumns } from "../components/ExpColumns";
 import { Columns3 } from "../components/Columns3";
 
 export default function Home() {
   return (
-    <div className="container">
+    <React.Fragment>
       <Head>
         <link
           rel="stylesheet"
@@ -19,18 +20,12 @@ export default function Home() {
           type="image/svg+xml"
           href="/man-face-with-glasses.svg"
         />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1"
-        ></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#408ec6" />
+
         <title>Ratoru</title>
       </Head>
       <Columns3 />
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-        }
-      `}</style>
-    </div>
+    </React.Fragment>
   );
 }
