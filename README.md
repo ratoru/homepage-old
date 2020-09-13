@@ -1,1 +1,2 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is my personal homepage.
+Inspired by https://codepen.io/ettrics/pen/ZYqKGb.
