@@ -73,7 +73,9 @@ export const Columns3 = () => {
             <p>
               Check out my most recent project{" "}
               <Link href="https://spikestats.ratoru.com">
-                <a target="_blank">SpikeStats</a>
+                <a target="_blank" style={{ color: "white" }}>
+                  SpikeStats
+                </a>
               </Link>
               .
             </p>
