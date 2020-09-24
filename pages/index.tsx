@@ -15,11 +15,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/css?family=Lato"
           rel="stylesheet"
         />
-        <link
-          rel="icon"
-          type="image/svg+xml"
-          href="/man-face-with-glasses.svg"
-        />
+        <link rel="icon" type="image/svg+xml" href="/RTR-logo-only.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#408ec6" />
 
