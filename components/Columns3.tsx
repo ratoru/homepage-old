@@ -50,8 +50,13 @@ export const Columns3 = () => {
             </p>
             <p>
               <Link href="https://github.com/ratoru">
-                <a target="_blank">
-                  <i className="fa fa-github"></i>
+                <a style={{ marginRight: 20 }}>
+                  <i className="fa fa-github" />
+                </a>
+              </Link>
+              <Link href="https://www.linkedin.com/in/ratoru/">
+                <a>
+                  <i className="fa fa-linkedin" />
                 </a>
               </Link>
             </p>
