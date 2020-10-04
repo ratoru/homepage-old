@@ -41,6 +41,14 @@ export const Columns3 = () => {
             Raphael
           </h1>
           <div className="strip__inner-text">
+            <img
+              src="/personal-picture.png"
+              alt="Raphael's Foto"
+              style={{
+                width: "110px",
+                height: "110px",
+              }}
+            />
             <h2>About Me</h2>
             <p>
               Welcome! My name is Raphael. <br /> During the day I am an MCS
@@ -76,17 +84,8 @@ export const Columns3 = () => {
           <div className="strip__inner-text">
             <h2>My Projects</h2>
             <p>
-              Check out my most recent project{" "}
-              <Link href="https://spikestats.ratoru.com">
-                <a target="_blank" style={{ color: "white" }}>
-                  SpikeStats
-                </a>
-              </Link>
-              .
-            </p>
-            <p>
-              <Link href="https://spikestats.ratoru.com">
-                <a target="_blank">
+              <Link href={isOpen2 ? "https://spikestats.ratoru.com" : ""}>
+                <a>
                   <img
                     src="/roundnet-logo-color.svg"
                     alt="Logo"
@@ -97,6 +96,13 @@ export const Columns3 = () => {
                   />
                 </a>
               </Link>
+            </p>
+            <p>
+              Check out my most recent project{" "}
+              <Link href={isOpen2 ? "https://spikestats.ratoru.com" : ""}>
+                <a style={{ color: "white" }}>SpikeStats</a>
+              </Link>
+              .
             </p>
           </div>
         </div>
@@ -116,8 +122,13 @@ export const Columns3 = () => {
             <p>I don't have any articles yet! Please come back later.</p>
             <p>
               <Link href="https://github.com/ratoru">
-                <a target="_blank">
+                <a style={{ marginRight: 20 }}>
                   <i className="fa fa-github"></i>
+                </a>
+              </Link>
+              <Link href="https://www.linkedin.com/in/ratoru/">
+                <a>
+                  <i className="fa fa-linkedin" />
                 </a>
               </Link>
             </p>
