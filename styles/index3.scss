@@ -2,9 +2,14 @@
 // $color2: #60bfbf;
 // $color3: #8c4b7e;
 
-$color1: #408ec6;
-$color2: #7a2048;
-$color3: #1e2761;
+// og.
+// $color1: #408ec6;
+// $color2: #7a2048;
+// $color3: #1e2761;
+
+$color1: #d8dee9;
+$color2: #e5e9f0;
+$color3: #eceff4;
 
 // $color1: #aed6dc;
 // $color2: #ff9a8d;
@@ -28,7 +33,8 @@ $color3: #1e2761;
   min-height: 100vh;
   text-align: center;
   overflow: hidden;
-  color: white;
+  //color: white;
+  color: #2e3440;
 
   &__strip {
     will-change: width, left, z-index, height;
@@ -187,7 +193,8 @@ $color3: #1e2761;
   z-index: 2;
   width: 100%;
   font-size: 3.5vw;
-  color: white;
+  //color: white;
+  color: #2e3440;
   @include easeOut;
 
   @include break {
@@ -255,15 +262,17 @@ h2 {
 }
 
 .fa {
-  font-size: 30px;
-  color: white;
+  font-size: 40px;
+  //color: white;
+  color: #2e3440;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 42px; // og: 36
   margin: 0 0 16px;
 }
 
 p {
+  font-size: 18px; // og: didn't exist
   margin: 0 0 16px;
 }

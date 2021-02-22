@@ -90,8 +90,8 @@ export const Columns3 = () => {
                     src="/roundnet-logo-color.svg"
                     alt="Logo"
                     style={{
-                      width: "90px",
-                      height: "75px",
+                      width: "108px",
+                      height: "90px",
                     }}
                   />
                 </a>
@@ -100,7 +100,7 @@ export const Columns3 = () => {
             <p>
               Check out my most recent project{" "}
               <Link href={isOpen2 ? "https://spikestats.ratoru.com" : ""}>
-                <a style={{ color: "white" }}>SpikeStats</a>
+                <a style={{ color: "#2e3440" }}>SpikeStats</a>
               </Link>
               .
             </p>

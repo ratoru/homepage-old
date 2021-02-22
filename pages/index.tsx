@@ -17,7 +17,7 @@ export default function Home() {
         />
         <link rel="icon" type="image/svg+xml" href="/RTR-logo-only.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#408ec6" />
+        <meta name="theme-color" content="#d8dee9" />
 
         <title>Ratoru</title>
       </Head>
