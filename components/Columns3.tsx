@@ -37,7 +37,7 @@ export const Columns3 = () => {
         }}
       >
         <div className="strip__content">
-          <h1 className="strip__title" data-name="Lorem" style = {{ fontWeight: 300, textAlign: "match-parent" }}>
+          <h1 className="strip__title" data-name="Lorem" style = {{ fontWeight: 300, textAlign: "center" }}>
             Raphael
           </h1>
           <div className="strip__inner-text">
@@ -49,7 +49,7 @@ export const Columns3 = () => {
                 height: "110px",
               }}
             />
-            <h2 style = {{ fontWeight: 300, textAlign: "match-parent", color: 'black' }}>About Me</h2>
+            <h2 style = {{ fontWeight: 300, textAlign: "center", color: "black" }}>About Me</h2>
             <p>
               Welcome! My name is Raphael. <br /> During the day I am an MCS
               student at Stanford University.
@@ -78,11 +78,11 @@ export const Columns3 = () => {
         }}
       >
         <div className="strip__content">
-          <h1 className="strip__title" data-name="Ipsum" style = {{ fontWeight: 300, textAlign: "match-parent" }}>
+          <h1 className="strip__title" data-name="Ipsum" style = {{ fontWeight: 300, textAlign: "center" }}>
             Projects
           </h1>
           <div className="strip__inner-text">
-            <h2 style = {{ fontWeight: 300, textAlign: "match-parent", color: 'black' }} >My Projects</h2>
+            <h2 style = {{ fontWeight: 300, textAlign: "center", color: 'black' }} >My Projects</h2>
             <p>
               <Link href={isOpen2 ? "https://spikestats.ratoru.com" : ""}>
                 <a>
@@ -114,11 +114,11 @@ export const Columns3 = () => {
         }}
       >
         <div className="strip__content">
-          <h1 className="strip__title" data-name="Dolor" style = {{ fontWeight: 300, textAlign: "match-parent", color: 'black' }}>
+          <h1 className="strip__title" data-name="Dolor" style = {{ fontWeight: 300, textAlign: "center", color: 'black' }}>
             Blog
           </h1>
           <div className="strip__inner-text">
-            <h2 style = {{ fontWeight: 300, textAlign: "match-parent", color: 'black' }}>Raphael's Blog</h2>
+            <h2 style = {{ fontWeight: 300, textAlign: "center", color: 'black' }}>Raphael's Blog</h2>
             <p>
               <Link href="blog/principles"> 
                 <a>
