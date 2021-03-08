@@ -1,25 +1,32 @@
 import React from "react";
 import Link from "next/link";
-// import styled from "styled-components";
+import styled from "styled-components";
 
-// const Icon = styled.div`
-//     transition: transform 50ms ease-in-out;
-//     &:hover:  {
-//         transform: translateX(-4px);
-//     }
-// `;
+const StyledIcon = styled.img`
+  position: relative;
+  top: 7px;
+  transition: transform 50ms ease-in-out;
+`;
+
+const StyledContainer = styled.div`
+  padding-top: 30px;
+  padding-bottom: 10px;
+  &:hover ${StyledIcon} {
+    transform: translateX(-8px);
+  }
+`;
 
 export const BackButton: React.FC = () => {
-    return (
-        <div style = {{ paddingTop: 30, paddingBottom: 10 }}>
-            <Link href = "/">
-                    <a style={{letterSpacing: '0.03em'}}>
-                        <img src="/icons/chevron-left.svg" style = {{ position: "relative", top: 7}}/>
-                         HOME 
-                    </a>
-            </Link>
-        </div>
-    );
-  };
+  return (
+    <StyledContainer>
+      <Link href="/">
+        <a style={{ letterSpacing: "0.03em" }}>
+          <StyledIcon src="/icons/chevron-left.svg" />
+          HOME
+        </a>
+      </Link>
+    </StyledContainer>
+  );
+};
 
 export default BackButton;

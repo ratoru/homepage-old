@@ -2,6 +2,19 @@ import React, { useState } from "react";
 import Link from "next/link";
 import classNames from "classnames";
 import { callbackify } from "util";
+import styled from "styled-components";
+
+const StyledIcon = styled.img`
+  position: relative;
+  top: 5px;
+  transition: transform 50ms ease-in-out;
+`;
+
+const HoverContainer = styled.div`
+  &:hover ${StyledIcon} {
+    transform: translateX(8px);
+  }
+`;
 
 export const Columns3 = () => {
   const [isOpen1, setIsOpen1] = useState(false);
@@ -38,7 +51,11 @@ export const Columns3 = () => {
         }}
       >
         <div className="strip__content">
-          <h1 className="strip__title" data-name="Lorem" style = {{ fontWeight: 300, textAlign: "center" }}>
+          <h1
+            className="strip__title"
+            data-name="Lorem"
+            style={{ fontWeight: 300, textAlign: "center" }}
+          >
             Raphael
           </h1>
           <div className="strip__inner-text">
@@ -50,8 +67,12 @@ export const Columns3 = () => {
                 height: "110px",
               }}
             />
-            <h2 style = {{ fontWeight: 300, textAlign: "center", color: "black" }}>About Me</h2>
-            <p style = {{fontSize: 'calc(16px + 1vw)' }}>
+            <h2
+              style={{ fontWeight: 300, textAlign: "center", color: "black" }}
+            >
+              About Me
+            </h2>
+            <p style={{ fontSize: "calc(16px + 1vw)" }}>
               Welcome! My name is Raphael. <br /> During the day I am an MCS
               student at Stanford University.
               <br />
@@ -79,11 +100,19 @@ export const Columns3 = () => {
         }}
       >
         <div className="strip__content">
-          <h1 className="strip__title" data-name="Ipsum" style = {{ fontWeight: 300, textAlign: "center" }}>
+          <h1
+            className="strip__title"
+            data-name="Ipsum"
+            style={{ fontWeight: 300, textAlign: "center" }}
+          >
             Projects
           </h1>
           <div className="strip__inner-text">
-            <h2 style = {{ fontWeight: 300, textAlign: "center", color: 'black' }} >My Projects</h2>
+            <h2
+              style={{ fontWeight: 300, textAlign: "center", color: "black" }}
+            >
+              My Projects
+            </h2>
             <p>
               <Link href={isOpen2 ? "https://spikestats.ratoru.com" : ""}>
                 <a>
@@ -98,7 +127,7 @@ export const Columns3 = () => {
                 </a>
               </Link>
             </p>
-            <p style = {{fontSize: 'calc(16px + 1vw)' }}>
+            <p style={{ fontSize: "calc(16px + 1vw)" }}>
               Check out my most recent project{" "}
               <Link href={isOpen2 ? "https://spikestats.ratoru.com" : ""}>
                 <a style={{ color: "#2e3440" }}>SpikeStats</a>
@@ -115,26 +144,38 @@ export const Columns3 = () => {
         }}
       >
         <div className="strip__content">
-          <h1 className="strip__title" data-name="Dolor" style = {{ fontWeight: 300, textAlign: "center", color: 'black' }}>
+          <h1
+            className="strip__title"
+            data-name="Dolor"
+            style={{ fontWeight: 300, textAlign: "center", color: "black" }}
+          >
             Blog
           </h1>
           <div className="strip__inner-text">
-            <h2 style = {{ fontWeight: 300, textAlign: "center", color: 'black' }}>Raphael's Blog</h2>
-            <p style = {{fontSize: 'calc(16px + 1vw)' }}>
-              <Link href="blog/principles"> 
-                <a>
-                  <i className="fa fa-balance-scale" style={{marginRight: 20}} /> 
-                  Guiding Principles.
-                </a>
-             </Link>
+            <h2
+              style={{ fontWeight: 300, textAlign: "center", color: "black" }}
+            >
+              Raphael's Blog
+            </h2>
+            <p style={{ fontSize: "calc(16px + 1vw)" }}>
+              <HoverContainer>
+                <Link href={isOpen3 ? "blog/principles" : ""}>
+                  <a>
+                    Guiding Principles.
+                    <StyledIcon src="/icons/chevron-right.svg" />
+                  </a>
+                </Link>
+              </HoverContainer>
             </p>
-            <p style = {{fontSize: 'calc(16px + 1vw)' }}>
-              <Link href="blog/terminal"> 
-                <a>
-                  <i className="fa fa-balance-scale" style={{marginRight: 20}} /> 
-                  What your terminal should look like. ;)
-                </a>
-             </Link>
+            <p style={{ fontSize: "calc(16px + 1vw)" }}>
+              <HoverContainer>
+                <Link href={isOpen3 ? "blog/terminal" : ""}>
+                  <a>
+                    What your terminal should look like. ;)
+                    <StyledIcon src="/icons/chevron-right.svg" />
+                  </a>
+                </Link>
+              </HoverContainer>
             </p>
             <p>
               <Link href="https://github.com/ratoru">
@@ -152,6 +193,6 @@ export const Columns3 = () => {
         </div>
       </article>
       <i className={closeClasses} onClick={handleClose} />
-     </section>
+    </section>
   );
 };
