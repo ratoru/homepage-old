@@ -124,7 +124,7 @@ export const Columns3 = () => {
               <Link href="blog/principles"> 
                 <a>
                   <i className="fa fa-balance-scale" style={{marginRight: 20}} /> 
-                  My Principles.
+                  Guiding Principles.
                 </a>
              </Link>
             </p>

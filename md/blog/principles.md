@@ -7,7 +7,7 @@ authorPhoto: /personal-picture.png
 canonicalUrl: https://ratoru.com/blog/principles
 ---
 
-This is a collection of principles that guide every decision I make in my life. I share these openly in order to create a sense of accountability. I hope that you will find a principle you disagree with and convince me to update it. With a bit of luck, you will also be inspired to think about your own life principles. These can be especially useful during hard times - when one tends to lose track of who one wants to be. As you'll soon see, I don't believe I know what is best for you. So, please question everything you read here.
+This is a collection of principles that guide every decision I make in my life. I share these openly in order to create a sense of accountability. You will probably disagree with one or some of these. I look forward to letting you convince me to update it. With a bit of luck, you will also be inspired to think about your own life principles. These can be especially useful during hard times - when one tends to lose track of who one wants to be. As you'll soon see, I don't believe I know what is best for you. So, please question everything you read here.
 
 To make things a little more digestible, they are grouped into multiple categories. I try to give credit where credit is due.
 
