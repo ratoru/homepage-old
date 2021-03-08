@@ -37,7 +37,7 @@ export const Columns3 = () => {
         }}
       >
         <div className="strip__content">
-          <h1 className="strip__title" data-name="Lorem">
+          <h1 className="strip__title" data-name="Lorem" style = {{ fontWeight: 300, textAlign: "match-parent" }}>
             Raphael
           </h1>
           <div className="strip__inner-text">
@@ -49,7 +49,7 @@ export const Columns3 = () => {
                 height: "110px",
               }}
             />
-            <h2>About Me</h2>
+            <h2 style = {{ fontWeight: 300, textAlign: "match-parent", color: 'black' }}>About Me</h2>
             <p>
               Welcome! My name is Raphael. <br /> During the day I am an MCS
               student at Stanford University.
@@ -78,11 +78,11 @@ export const Columns3 = () => {
         }}
       >
         <div className="strip__content">
-          <h1 className="strip__title" data-name="Ipsum">
+          <h1 className="strip__title" data-name="Ipsum" style = {{ fontWeight: 300, textAlign: "match-parent" }}>
             Projects
           </h1>
           <div className="strip__inner-text">
-            <h2>My Projects</h2>
+            <h2 style = {{ fontWeight: 300, textAlign: "match-parent", color: 'black' }} >My Projects</h2>
             <p>
               <Link href={isOpen2 ? "https://spikestats.ratoru.com" : ""}>
                 <a>
@@ -114,12 +114,27 @@ export const Columns3 = () => {
         }}
       >
         <div className="strip__content">
-          <h1 className="strip__title" data-name="Dolor">
+          <h1 className="strip__title" data-name="Dolor" style = {{ fontWeight: 300, textAlign: "match-parent", color: 'black' }}>
             Blog
           </h1>
           <div className="strip__inner-text">
-            <h2>Raphael's Blog</h2>
-            <p>I don't have any articles yet! Please come back later.</p>
+            <h2 style = {{ fontWeight: 300, textAlign: "match-parent", color: 'black' }}>Raphael's Blog</h2>
+            <p>
+              <Link href="blog/principles"> 
+                <a>
+                  <i className="fa fa-balance-scale" style={{marginRight: 20}} /> 
+                  My Principles.
+                </a>
+             </Link>
+            </p>
+            <p>
+              <Link href="blog/terminal"> 
+                <a>
+                  <i className="fa fa-balance-scale" style={{marginRight: 20}} /> 
+                  What your terminal should look like. ;)
+                </a>
+             </Link>
+            </p>
             <p>
               <Link href="https://github.com/ratoru">
                 <a style={{ marginRight: 20 }}>
@@ -136,6 +151,6 @@ export const Columns3 = () => {
         </div>
       </article>
       <i className={closeClasses} onClick={handleClose} />
-    </section>
+     </section>
   );
 };
