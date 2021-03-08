@@ -10,8 +10,6 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
 }) => {
   const { title, subtitle } = post;
   return (
-    <React.Fragment>
-
     <div className="blog-post">
       <BackButton />
       <PostMeta post={post} />
@@ -29,7 +27,7 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
       <div className="blog-post-content">
         <Markdown source={post.content} />
       </div>
+      <BackButton/>
     </div>
-        </React.Fragment>
   );
 };

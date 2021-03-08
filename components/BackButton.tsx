@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export const BackButton: React.FC = () => {
     return (
-        <div style = {{ paddingTop: 30 }}>
+        <div style = {{ paddingTop: 30, paddingBottom: 10 }}>
             <Link href = "/">
                     <a style={{letterSpacing: '0.03em'}}>
                         <img src="/icons/chevron-left.svg" style = {{ position: "relative", top: 7}}/>
