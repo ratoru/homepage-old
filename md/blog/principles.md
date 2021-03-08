@@ -7,7 +7,7 @@ authorPhoto: /personal-picture.png
 canonicalUrl: https://ratoru.com/blog/principles
 ---
 
-This is a collection of principles that guide every decision I make in my life. I share these openly in order to create a sense of accountability. You will probably disagree with one or some of these. I look forward to letting you convince me to update it. With a bit of luck, you will also be inspired to think about your own life principles. These can be especially useful during hard times - when one tends to lose track of who one wants to be. As you'll soon see, I don't believe I know what is best for you. So, please question everything you read here.
+This is a collection of principles that guide every decision I make in my life. I share these openly in order to create a sense of accountability. Maybe you will disagree with one or some of these. I look forward to letting you convince me to update it. With a bit of luck, you will also be inspired to think about your own life principles. These can be especially useful during hard times - when one tends to lose track of who one wants to be. As you'll soon see, I don't believe I know what is best for you. So, please question everything you read here.
 
 To make things a little more digestible, they are grouped into multiple categories. I try to give credit where credit is due.
 
@@ -46,7 +46,7 @@ Unsurprisingly, my goal in life is to be happy. The two core principles to achie
 
 - "Realize that you are simultaneously everything and nothing — and decide what you want to be." - Ray Dalio
 - “There is only one failure for you and that is not to be true to the best you know.” - Jane Stanford
-- You have 30000 days in your life. 30000 chances to make the best out of your life.
+- You have 30000 days in your life, 30000 chances to make the best out of your life.
 - "Let everyone else call your idea crazy... just keep going. Don't stop. Don't even think about stopping until you get there, and don't give much thought to where "there" is. Whatever comes, just don't stop. \[...\] I believe it's the best advice - maybe the only advice - any of us should ever give". - Phil Knight, Shoe Dog, p.5
 
 ### Sleep
@@ -126,5 +126,3 @@ Imagination is incredibly useful whenever you try to remember something.
 Remember names by truly listening when people introduce themselves.
 
 ---
-
-**DISCUSS YOUR PRINCIPLES**
