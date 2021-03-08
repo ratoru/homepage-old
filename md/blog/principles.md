@@ -1,5 +1,5 @@
 ---
-title: My Principles
+title: Guiding Principles
 published: true
 datePublished: 03/07/2021
 author: Raphael Ruban
