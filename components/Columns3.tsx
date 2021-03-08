@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import classNames from "classnames";
+import { callbackify } from "util";
 
 export const Columns3 = () => {
   const [isOpen1, setIsOpen1] = useState(false);
@@ -50,7 +51,7 @@ export const Columns3 = () => {
               }}
             />
             <h2 style = {{ fontWeight: 300, textAlign: "center", color: "black" }}>About Me</h2>
-            <p>
+            <p style = {{fontSize: 'calc(16px + 1vw)' }}>
               Welcome! My name is Raphael. <br /> During the day I am an MCS
               student at Stanford University.
               <br />
@@ -97,7 +98,7 @@ export const Columns3 = () => {
                 </a>
               </Link>
             </p>
-            <p>
+            <p style = {{fontSize: 'calc(16px + 1vw)' }}>
               Check out my most recent project{" "}
               <Link href={isOpen2 ? "https://spikestats.ratoru.com" : ""}>
                 <a style={{ color: "#2e3440" }}>SpikeStats</a>
@@ -119,7 +120,7 @@ export const Columns3 = () => {
           </h1>
           <div className="strip__inner-text">
             <h2 style = {{ fontWeight: 300, textAlign: "center", color: 'black' }}>Raphael's Blog</h2>
-            <p>
+            <p style = {{fontSize: 'calc(16px + 1vw)' }}>
               <Link href="blog/principles"> 
                 <a>
                   <i className="fa fa-balance-scale" style={{marginRight: 20}} /> 
@@ -127,7 +128,7 @@ export const Columns3 = () => {
                 </a>
              </Link>
             </p>
-            <p>
+            <p style = {{fontSize: 'calc(16px + 1vw)' }}>
               <Link href="blog/terminal"> 
                 <a>
                   <i className="fa fa-balance-scale" style={{marginRight: 20}} /> 
