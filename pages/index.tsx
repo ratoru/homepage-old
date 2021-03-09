@@ -15,11 +15,11 @@ export default function Home() {
           href="https://fonts.googleapis.com/css?family=Lato"
           rel="stylesheet"
         />
-        <link rel="icon" type="image/svg+xml" href="/RTR-logo-only2.svg" />
+        <link rel="icon" type="image/svg+xml" href="/RTR-logo.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#d8dee9" />
 
-        <title>Ratoru</title>
+        <title>Raphael Ruban</title>
       </Head>
       <Columns3 />
     </React.Fragment>
