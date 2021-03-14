@@ -53,8 +53,6 @@ Unsurprisingly, my goal in life is to be happy. The two core principles to achie
 
 Yup. That's the entire principle. It's that important.
 
-## Mindset Principles :brain:
-
 ### Love yourself
 
 Realize that your mood / interpretation of the current situation mainly stems from your head and can therefore be changed.
@@ -77,7 +75,7 @@ Cherish the art of thoughtful disagreement.
 
 A problem or concept that is too difficult for you does not exist. If you do not understand something, it is because there exists a simpler / more fundamental idea that you have not yet understood. In most cases, you don't even realize that you still need to learn a previous step.
 
-## Personality Principles :sunglasses:
+## Interaction Principles :sunglasses:
 
 ### Kindness
 
@@ -94,6 +92,8 @@ Smile. People are drawn to positive energy. Give sincere appreciation.
 ### Listen
 
 A wonderful way to achieve all the things I talk about here. It helps you realize how little you know, and makes the people around you happy. Understand that people do not think like you.
+
+> Du gehörtest zu den Schlauen, die nie viel sagen, aber sehr viel staunen. // You belonged to the smart ones, that never said much, but were frequently amazed. - Gelernt von Käptn Peng
 
 ## Choice Principles :clock4:
 
