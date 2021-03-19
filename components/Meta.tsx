@@ -1,6 +1,6 @@
-import React from 'react';
-import NextHead from 'next/head';
-import { globals } from '../util/globals';
+import React from "react";
+import NextHead from "next/head";
+import { globals } from "../util/globals";
 
 export const Meta: React.FC<{
   meta: {
@@ -14,7 +14,7 @@ export const Meta: React.FC<{
   return (
     <NextHead>
       <title>{meta.title}</title>
-      <meta name="copyright" content="Colin McDonnell" />
+      <meta name="copyright" content="Raphael Ruban" />
       {meta.link && <link rel="canonical" href={meta.link} />}
       {meta.desc && <meta name="description" content={meta.desc} />}
       <meta property="og:type" content="website" />

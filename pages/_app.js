@@ -1,5 +1,4 @@
-import "../styles/base.css";
-import "../styles/index3.scss";
+import "tailwindcss/tailwind.css";
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {

@@ -115,7 +115,7 @@ Follow these steps by Ray Dalio:
 
 ### Build good habits
 
-Naturally, you will spend most of your life in autopilot. Good habits ensure that you are still flying towards your original destination.
+Naturally, you will spend most of your life in autopilot. Good habits ensure that you are still flying towards your original destination. Furthermore, good (small) habits compound.
 
 ### Use your imagination
 
@@ -124,5 +124,9 @@ Naturally, you will spend most of your life in autopilot. Good habits ensure tha
 Imagination is incredibly useful whenever you try to remember something.
 
 Remember names by truly listening when people introduce themselves.
+
+### Additional reading
+
+Great [advice](https://patrickcollison.com/advice) for young people.
 
 ---

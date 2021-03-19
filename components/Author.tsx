@@ -1,21 +1,22 @@
 import React from "react";
 import { format } from "fecha";
 import { PostData } from "../util/loader";
+import styles from "./BlogPost.module.css";
 
 export const FollowButton = () => {
   return (
     <a href="/newsletter">
-      <div className="follow-button">Follow</div>
+      <div className={styles.followButton}>Follow</div>
     </a>
   );
 };
 
 export const Author: React.FC<{ post: PostData }> = (props) => {
   return (
-    <div className="author-container">
-      <div className="author">
+    <div className={styles.authorContainer}>
+      <div className={styles.author}>
         {props.post.authorPhoto && (
-          <img src={props.post.authorPhoto} className="author-image" />
+          <img src={props.post.authorPhoto} className={styles.authorImage} />
         )}
         <AuthorLines post={props.post} />
       </div>
@@ -26,7 +27,7 @@ export const Author: React.FC<{ post: PostData }> = (props) => {
 export const AuthorLines: React.FC<{ post: PostData }> = (props) => {
   return (
     <div>
-      <p className="author-line">
+      <p className={styles.authorLine}>
         {props.post.author && <span>{props.post.author}</span>}
 
         {props.post.authorTwitter && (
@@ -38,7 +39,7 @@ export const AuthorLines: React.FC<{ post: PostData }> = (props) => {
           </span>
         )}
       </p>
-      <p className="author-line subtle">
+      <p className={styles.authorLineSubtle}>
         {props.post.datePublished
           ? format(new Date(props.post.datePublished), "MMMM Do, YYYY")
           : ""}
