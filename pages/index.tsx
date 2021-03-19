@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <React.Fragment>
       <Head>
-        <link rel="icon" type="image/svg+xml" href="/RTR-logo.svg" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#d8dee9" />
 
         <title>Raphael Ruban</title>
       </Head>
-      <body className="font-sans">
+      <div className="font-sans">
         <div className="flex flex-col w-full items-center">
           <div className="text-center mt-16">
             <h1 className="text-4xl font-extrabold text-gray-900 font-serif">
@@ -43,15 +43,15 @@ export default function Home() {
             Blog
           </h2>
           <ul className="mt-2">
-            <BlogListElem href="blog/principles" title="Guiding Principles" />
+            <BlogListElem href="/blog/principles" title="Guiding Principles" />
             <BlogListElem
-              href="blog/terminal"
+              href="/blog/terminal"
               title="What your terminal should look like ;)"
             />
           </ul>
         </div>
         <PersonalInfo />
-      </body>
+      </div>
     </React.Fragment>
   );
 }

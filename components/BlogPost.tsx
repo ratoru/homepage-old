@@ -14,26 +14,24 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
     <React.Fragment>
       <div className="unreset">
         <div className="md-wrapper">
-          <body>
-            <div className="blog-post">
-              <BackButton />
-              <PostMeta post={post} />
-              {post.bannerPhoto && (
-                <img className="blog-post-image" src={post.bannerPhoto} />
-              )}
+          <div className="blog-post">
+            <BackButton />
+            <PostMeta post={post} />
+            {post.bannerPhoto && (
+              <img className="blog-post-image" src={post.bannerPhoto} />
+            )}
 
-              <div className="blog-post-title">
-                {title && <h1>{title}</h1>}
-                {subtitle && <h2>{subtitle}</h2>}
-                <br />
-                <Author post={post} />
-              </div>
-
-              <div className="blog-post-content">
-                <Markdown source={post.content} />
-              </div>
+            <div className="blog-post-title">
+              {title && <h1>{title}</h1>}
+              {subtitle && <h2>{subtitle}</h2>}
+              <br />
+              <Author post={post} />
             </div>
-          </body>
+
+            <div className="blog-post-content">
+              <Markdown source={post.content} />
+            </div>
+          </div>
         </div>
       </div>
       <PersonalInfo />
