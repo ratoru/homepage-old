@@ -1,30 +1,19 @@
 import React from "react";
 import Link from "next/link";
-import styled from "styled-components";
-
-const StyledIcon = styled.img`
-  transition: transform 50ms ease-in-out;
-  display: inline;
-`;
-
-const StyledContainer = styled.div`
-  padding-top: 30px;
-  padding-bottom: 10px;
-  &:hover ${StyledIcon} {
-    transform: translateX(-8px);
-  }
-`;
 
 export const BackButton: React.FC = () => {
   return (
-    <StyledContainer>
+    <div className="group mt-12">
       <Link href="/">
         <a style={{ letterSpacing: "0.03em" }}>
-          <StyledIcon src="/icons/chevron-left.svg" />
+          <img
+            src="/icons/chevron-left.svg"
+            className="pb-1 group-hover:-translate-x-3 inline transform transition ease-in-out duration-100"
+          />
           HOME
         </a>
       </Link>
-    </StyledContainer>
+    </div>
   );
 };
 
