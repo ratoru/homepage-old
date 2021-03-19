@@ -3,9 +3,8 @@ import Link from "next/link";
 import styled from "styled-components";
 
 const StyledIcon = styled.img`
-  position: relative;
-  top: 7px;
   transition: transform 50ms ease-in-out;
+  display: inline;
 `;
 
 const StyledContainer = styled.div`

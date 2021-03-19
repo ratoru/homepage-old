@@ -5,31 +5,38 @@ import { PostData } from "../util/loader";
 import { PostMeta } from "./PostMeta";
 import { BackButton } from "./BackButton";
 import { PersonalInfo } from "./PersonalInfo";
-import styles from "./BlogPost.module.css";
 
 export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
   post,
 }) => {
   const { title, subtitle } = post;
   return (
-    <div className={styles.blogPost}>
-      <BackButton />
-      <PostMeta post={post} />
-      {post.bannerPhoto && (
-        <img className={styles.blogPostImage} src={post.bannerPhoto} />
-      )}
+    <React.Fragment>
+      <div className="unreset">
+        <div className="md-wrapper">
+          <body>
+            <div className="blog-post">
+              <BackButton />
+              <PostMeta post={post} />
+              {post.bannerPhoto && (
+                <img className="blog-post-image" src={post.bannerPhoto} />
+              )}
 
-      <div className={styles.blogPostTitle}>
-        {title && <h1>{title}</h1>}
-        {subtitle && <h2>{subtitle}</h2>}
-        <br />
-        <Author post={post} />
-      </div>
+              <div className="blog-post-title">
+                {title && <h1>{title}</h1>}
+                {subtitle && <h2>{subtitle}</h2>}
+                <br />
+                <Author post={post} />
+              </div>
 
-      <div className={styles.blogPostContent}>
-        <Markdown source={post.content} />
+              <div className="blog-post-content">
+                <Markdown source={post.content} />
+              </div>
+            </div>
+          </body>
+        </div>
       </div>
       <PersonalInfo />
-    </div>
+    </React.Fragment>
   );
 };

@@ -10,7 +10,7 @@ export const BlogListElem: React.FC<BlogListElemProps> = ({ href, title }) => {
   return (
     <Link href={href}>
       <a>
-        <li className="flex flex-row hover:shadow hover:text-blue-700 rounded-md py-6 group relative">
+        <li className="flex flex-row hover:shadow hover:text-pacific-coast rounded-md py-6 pr-4 group relative">
           {/* Closed Book */}
           <svg
             className="mx-4 group-hover:opacity-0"
@@ -34,9 +34,9 @@ export const BlogListElem: React.FC<BlogListElemProps> = ({ href, title }) => {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
             <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
