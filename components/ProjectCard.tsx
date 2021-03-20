@@ -5,6 +5,7 @@ interface ProjectCardProps {
   href: string;
   imgSrc: string;
   title: string;
+  tags: string;
   description: string;
 }
 
@@ -12,6 +13,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   href,
   imgSrc,
   title,
+  tags,
   description,
 }) => {
   return (
@@ -27,7 +29,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
             </h3>
           </a>
         </Link>
-        <div className="text-gray-400 mt-1">NextJs, Rust</div>
+        <div className="text-gray-400 mt-1">{tags}</div>
         <p className="text-gray-700 mt-3">{description}</p>
       </div>
     </div>

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <Head>
-        <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+        <link rel="shortcut icon" type="image/svg+xml" href="/RTR-logo.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#d8dee9" />
 
@@ -36,6 +36,7 @@ export default function Home() {
               href="https://spikestats.ratoru.com"
               imgSrc="/roundnet-logo-color.svg"
               title="SpikeStats"
+              tags="NextJs, Rust"
               description="Keep track of your stats while playing roundnet with your friends."
             />
           </ul>
