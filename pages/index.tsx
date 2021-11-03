@@ -36,7 +36,7 @@ export default function Home() {
               href="https://spikestats.ratoru.com"
               imgSrc="/roundnet-logo-color.svg"
               title="SpikeStats"
-              tags="NextJs, Rust"
+              tags="Next.js, Rust"
               description="Keep track of your stats while playing roundnet with your friends."
             />
           </ul>
