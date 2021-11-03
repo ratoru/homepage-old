@@ -7,8 +7,6 @@ authorPhoto: /personal-picture.png
 canonicalUrl: https://ratoru.com/blog/terminal
 ---
 
-# My quick and simple terminal setup
-
 ## The Terminal
 
 ### [Homebrew](https://brew.sh/) :beer:
@@ -54,11 +52,11 @@ A nice theme brings it all together. To install these download the `.itermcolors
 
 - [Nord](https://github.com/arcticicestudio/nord-iterm2) - Beautiful, subtle color scheme.
 
-![iterm-color](/Users/raphael/Documents/Freizeit/Megamind/md-images/iterm-color.png)
+![iterm-color](/blog-img/iterm-color.png)
 
 - [Snazzy](https://github.com/sindresorhus/iterm2-snazzy) - Slightly more vibrant than Nord.
 
-![snazzy-color](/Users/raphael/Documents/Freizeit/Megamind/md-images/snazzy-color.png)
+![snazzy-color](/blog-img/snazzy-color.png)
 
 Other good options are Raycast Light / Dark. A full list can be found [here](https://github.com/mbadolato/iTerm2-Color-Schemes#screenshots).
 
