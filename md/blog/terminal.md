@@ -38,13 +38,13 @@ Want to become better at using the command-line? Read [the art of command-line](
 
 ### [iTerm2](https://iterm2.com/)
 
-iTerm2 is a replacement for the standard Terminal app on your Mac. It comes with a variety of [features](https://iterm2.com/features.html). The main selling point for me, though, is the available themes we will cover next in the Aesthetics section. I recommend the following settings. Under Appearance pick the Minimal theme. Under Profiles, Text pick a font (see next section) and use ligatures.
+iTerm2 is a replacement for the standard Terminal app on your Mac. It comes with a variety of [features](https://iterm2.com/features.html). The main selling point for me, though, is the available themes we will cover next in the Aesthetics section. I recommend the following settings. Under `Preferences (⌘,) -> Appearance` pick the Minimal theme.
 
 ## The Aesthetics
 
 ### [Starship](https://starship.rs/) :rocket:
 
-Starship is a fast, customizable, minimalistic prompt that can be used with any shell. To install, use `brew` and add the init script to the right shell-config file. Additionally, you will have to install a [Nerd Font](https://www.nerdfonts.com/). I personally chose Hack. Starship might be my favorite item on this list. You will have to enable the font under `Preferences ( ⌘ , ) -> Profiles -> Text`.
+Starship is a fast, customizable, minimalistic prompt that can be used with any shell. To install, use `brew` and add the init script to the right shell-config file. Additionally, you will have to install a [Nerd Font](https://www.nerdfonts.com/). I personally chose Hack. Starship might be my favorite item on this list. You will have to enable the font under `Preferences (⌘,) -> Profiles -> Text`. Additionally, I recommend enabling ligatures.
 
 ### iTerm Themes :art:
 
@@ -86,14 +86,14 @@ If you are in your root directory and `ls -a` you should be able to see you `~.v
 
 "  General settings
 "  ------------------------------------------------
-   set nowrap		      " dont wrap lines
+   set nowrap           " dont wrap lines
    set tabstop=4        " a tab is four spaces
    set shiftwidth=4     " number of spaces to use for autoindenting
    set expandtab
    set autoindent       " always set autoindenting on
    set ignorecase       " ignore case when searching
    set smartcase        " ingonore case if search pattern is all lowercase,
-                        "      case-sensitive otherwise
+                        " case-sensitive otherwise
    set hlsearch         " highlight search term
    set incsearch        " show search matches as you type
 

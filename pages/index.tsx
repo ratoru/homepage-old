@@ -47,7 +47,7 @@ export default function Home() {
             <BlogListElem href="/blog/principles" title="Guiding Principles" />
             <BlogListElem
               href="/blog/terminal"
-              title="My quick and simple terminal setup"
+              title="My clean and simple terminal setup"
             />
           </ul>
         </div>
