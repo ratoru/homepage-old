@@ -69,7 +69,7 @@ This too shall pass.
 
 As Ray Dalio said "evolving is life’s greatest accomplishment and its greatest reward." In order to improve one has to try and fail first since "it is a fundamental law of nature that in order to gain strength one has to push one's limits, which is painful". To get the most out of these failures, be mindful and remember that **Pain + Reflection = Progress**.
 
-<img src="/blog-img/dalio-improve-cycle.jpg" alt="Source: Principles, Ray Dalio" style="width:300;" />
+![improve-cycle](/blog-img/dalio-improve-cycle.jpg)
 
 Cherish the art of thoughtful disagreement.
 

@@ -2,7 +2,7 @@
 
 ## Intro
 
-This is a work in progres. Oh, and also my personal homepage. Built with NextJs and TailwindCss.
+This is a work in progress built with NextJs and TailwindCss.
 
 ## Credits
 
