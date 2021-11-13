@@ -7,6 +7,8 @@ authorPhoto: /personal-picture.png
 canonicalUrl: https://ratoru.com/blog/terminal
 ---
 
+![terminal-setup](/blog-img/terminal-setup.png)
+
 ## The Terminal
 
 ### [Homebrew](https://brew.sh/) :beer:
