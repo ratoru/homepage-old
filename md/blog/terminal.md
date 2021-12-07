@@ -11,11 +11,11 @@ canonicalUrl: https://ratoru.com/blog/terminal
 
 ## The Terminal
 
-### [Homebrew](https://brew.sh/) :beer:
+### [Homebrew](https://brew.sh/) 🍺
 
 To start us off, we have the package manager Homebrew. Homebrew will take good care of the software you install. It allows for one-line install with `brew install ...` and allows you to quickly update all your packages with `brew update`. For a more complete list on how and why to use Homebrew please check out their website. We will be using Homebrew to install most of the things mentioned in this article.
 
-### [fish shell](https://fishshell.com/) :fish:
+### [fish shell](https://fishshell.com/) 🐟
 
 Fish is a lesser known, beginner friendly shell that comes with an amazing out of the box experience. In case you are currently using bash or zsh, you have probably spent a reasonable amount of time struggling with oh-my-zsh or the like. There will be no need for that. Fish comes with the most helpful features already enabled. These include autosuggestions, syntax highlighting, and easy history search.
 
@@ -27,7 +27,7 @@ Want to learn more about fish? Check out this [list](https://project-awesome.org
 
 Want to become better at using the command-line? Read [the art of command-line](https://github.com/jlevy/the-art-of-command-line).
 
-### Command-line Tools :hammer:
+### Command-line Tools 🔨
 
 - [fzf](https://github.com/junegunn/fzf#-) - command-line fuzzy finder. Just hit ctrl-r and start typing snippets of the command you'd like to use. Any previously used commands that look similar will pop up. Most useful utility on this list.
 - [bat](https://github.com/sharkdp/bat) - a prettier version of `cat`
@@ -44,11 +44,11 @@ iTerm2 is a replacement for the standard Terminal app on your Mac. It comes with
 
 ## The Aesthetics
 
-### [Starship](https://starship.rs/) :rocket:
+### [Starship](https://starship.rs/) 🚀
 
 Starship is a fast, customizable, minimalistic prompt that can be used with any shell. To install, use `brew` and add the init script to the right shell-config file. Additionally, you will have to install a [Nerd Font](https://www.nerdfonts.com/). I personally chose Hack. Starship might be my favorite item on this list. You will have to enable the font under `Preferences (⌘,) -> Profiles -> Text`. Additionally, I recommend enabling ligatures.
 
-### iTerm Themes :art:
+### iTerm Themes 🎨
 
 A nice theme brings it all together. To install these download the `.itermcolors` file and double-click it. Next, open iTerm and navigate to Preferences, Profiles, Colors. Then click on Color Presets and select the newly installed theme. Here are my favorite themes.
 
@@ -62,7 +62,7 @@ A nice theme brings it all together. To install these download the `.itermcolors
 
 Other good options are Raycast Light / Dark. A full list can be found [here](https://github.com/mbadolato/iTerm2-Color-Schemes#screenshots).
 
-## Vim - The Editor
+## Vim - The Editor ✏️
 
 Vim has an endless amount of shortcuts you can use. Here are some of the [basics](https://learnxinyminutes.com/docs/vim/). I highly recommend being an active learner. So, whenever you think there should be a faster way to do this, go and look it up!
 
@@ -105,6 +105,10 @@ If you are in your root directory and `ls -a` you should be able to see you `~.v
    syntax on
    set showmatch        " highlight matching [{()}]
 ```
+
+## On My Radar
+
+[Fig](https://fig.io/) has recently launched. I've been trying it out and it's definitely a nice addition to your terminal. I'm currently unsure whether it doesn't add too much visual distraction to my screen.
 
 ## In closing
 
