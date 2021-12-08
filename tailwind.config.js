@@ -10,10 +10,8 @@ module.exports = {
       },
     },
   },
-  variants: {
-    extend: {
-      translate: ["group-hover"],
-    },
-  },
-  plugins: [],
+  variants: {},
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 };
