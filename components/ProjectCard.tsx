@@ -17,11 +17,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   description,
 }) => {
   return (
-    <div className="flex flex-row m-4 bg-gray-50 rounded-lg max-w-sm shadow-md p-6">
-      <div className="w-1/3 flex bg-gray-50">
-        <img src={imgSrc} className="w-full m-auto" />
+    <div className="flex flex-row mt-4 bg-gray-50 rounded-lg max-w-sm shadow-md p-10">
+      <div className="w-1/3 flex items-center">
+        <img src={imgSrc} className="w-full" />
       </div>
-      <div className="flex flex-col w-2/3 pl-6">
+      <div className="flex flex-col w-2/3 ml-10">
         <Link href={href}>
           <a>
             <h3 className="text-xl font-medium text-gray-900 hover:text-pacific-coast">
@@ -30,7 +30,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           </a>
         </Link>
         <div className="text-gray-400 mt-1">{tags}</div>
-        <p className="text-gray-700 mt-3">{description}</p>
+        <p className="text-gray-700 mt-4">{description}</p>
       </div>
     </div>
   );

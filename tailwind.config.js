@@ -17,9 +17,7 @@ module.exports = {
                 color: "hsl(5, 96%, 70%)",
               }
             },
-            blockquote: {
-              
-            }
+            // Add more for block quotes and code.
           }
         }
       }

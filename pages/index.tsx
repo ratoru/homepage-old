@@ -25,30 +25,37 @@ export default function Home() {
       <div className="font-sans">
         <div className="flex flex-col w-full items-center">
           <div className="text-center mt-16">
-            <h1 className="text-4xl font-extrabold text-gray-900 font-serif">
+            <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 font-serif">
               <span>Hi, I'm </span>
-              <img src="/RTR-logo.svg" className="inline h-24 -mr-2" />
+              <img src="/RTR-logo.svg" className="inline h-24 md:h-28 -mr-2" />
               <span>aphael!</span>
             </h1>
-            <p className="text-lg text-gray-700 mt-8">
+            <p className="text-lg md:text-2xl text-gray-700 mt-12">
               I create things. <br />
               During the day I am an MCS student at Stanford University. <br />
               At night I am a roundnet enthusiast and music lover.
             </p>
           </div>
-          <h2 className="font-bold text-3xl text-gray-900 font-serif mt-16">
+          <h2 className="font-bold text-3xl md:text-4xl text-gray-900 font-serif mt-16">
             Projects
           </h2>
           <ul className="mt-2">
             <ProjectCard
               href="https://spikestats.ratoru.com"
-              imgSrc="/roundnet-logo-color.svg"
+              imgSrc="/projects/roundnet-logo-color.svg"
               title="SpikeStats"
               tags="Next.js, Rust"
               description="Keep track of your stats while playing roundnet with your friends."
             />
+            <ProjectCard
+              href="https://www.raycast.com/ratoru"
+              imgSrc="/projects/programming-student.svg"
+              title="Raycast Extensions"
+              tags="Open Source"
+              description="Made Google Maps Search and HazeOver Controls."
+            />
           </ul>
-          <h2 className="font-bold text-3xl text-gray-900 font-serif mt-16">
+          <h2 className="font-bold text-3xl md:text-4xl text-gray-900 font-serif mt-16">
             Blog
           </h2>
           <ul className="mt-2">

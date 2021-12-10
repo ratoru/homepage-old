@@ -27,7 +27,12 @@ export default function Layout({ children, meta }) {
       </Head>
       <Header title={meta.title} date={meta.date} author={meta.authors[0]} />
       <main className="flex flex-col items-center w-screen">
-        <article className="prose lg:prose-xl px-8">{children}</article>
+        <article className="prose lg:prose-xl px-8">
+          <Link href="/">
+            <a>&larr; Home</a>
+          </Link>
+          {children}
+        </article>
         <PersonalInfo />
       </main>
     </>

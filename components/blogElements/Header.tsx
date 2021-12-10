@@ -16,13 +16,14 @@ export const Header: React.FC<HeaderProps> = ({ title, date, author }) => {
         <img
           src={author.avatar}
           alt={`${author.name}'s foto`}
-          className="w-20 h-20 md:w-32 md:h-32 border-2 rounded-full border-gray-300 outline-none"
+          className="w-20 h-20 md:w-32 md:h-32 border-2 md:border-4 rounded-full border-gray-300 outline-none"
         />
         <div className="flex flex-col justify-center ml-8">
           <div className="text-xl md:text-2xl text-gray-900 font-medium">
             {author.name}
           </div>
           <div className="text-lg md:text-xl text-gray-600 mt-1 md:mt-2">
+            {/* Add extension to handle date formatting. */}
             {date}
           </div>
         </div>
