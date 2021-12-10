@@ -1,3 +1,4 @@
+import tinytime from "tinytime";
 import { Author } from "../../util/authors";
 
 interface HeaderProps {
@@ -22,10 +23,11 @@ export const Header: React.FC<HeaderProps> = ({ title, date, author }) => {
           <div className="text-xl md:text-2xl text-gray-900 font-medium">
             {author.name}
           </div>
-          <div className="text-lg md:text-xl text-gray-600 mt-1 md:mt-2">
-            {/* Add extension to handle date formatting. */}
-            {date}
-          </div>
+          <dd className="text-lg md:text-xl leading-6 font-medium text-gray-500 mt-1 md:mt-2">
+            <time dateTime={date}>
+              {tinytime("{dddd}, {MMMM} {DD}, {YYYY}").render(new Date(date))}
+            </time>
+          </dd>
         </div>
       </div>
     </header>

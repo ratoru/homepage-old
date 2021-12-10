@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { Header } from "./blogElements/Header";
+import { BackButton } from "./blogElements/BackButton";
 import { PersonalInfo } from "./blogElements/PersonalInfo";
 
 export default function Layout({ children, meta }) {
@@ -27,9 +28,10 @@ export default function Layout({ children, meta }) {
       <Header title={meta.title} date={meta.date} author={meta.authors[0]} />
       <main className="flex flex-col items-center w-screen">
         <article className="prose lg:prose-xl px-8">
-          <Link href="/">
+          {/* <Link href="/">
             <a>&larr; Home</a>
-          </Link>
+          </Link> */}
+          <BackButton />
           {children}
         </article>
         <PersonalInfo />
