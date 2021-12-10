@@ -1,5 +1,8 @@
 module.exports = {
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -7,22 +10,32 @@ module.exports = {
         "pacific-coast": "hsl(211, 36%, 53%)",
         "living-coral": "hsl(5, 96%, 70%)",
       },
-      typography: {
+      typography: (theme) => ({
         DEFAULT: {
           css: {
             a: {
-              color: "hsl(211, 36%, 53%)",
-              '&:hover': {
-                color: "hsl(5, 96%, 70%)",
+              color: '#5b84b1',
+              "&:hover": {
+                color: "fc766a",
               }
             },
-            // Add more for block quotes and code.
-          }
-        }
-      }
-    },
+            code: {
+              backgroundColor: "#f1f5f9",
+              "border-radius": "0.25rem",
+            },
+            "code::before": {
+              content: '""',
+              "padding-left": "0.25rem",
+            },
+            "code::after": {
+              content: '""',
+              "padding-right": "0.25rem",
+            }
+          },
+        },
+      }),
+    }
   },
-  variants: {},
   plugins: [
     require('@tailwindcss/typography')
   ],

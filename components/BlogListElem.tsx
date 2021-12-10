@@ -10,7 +10,7 @@ export const BlogListElem: React.FC<BlogListElemProps> = ({ href, title }) => {
   return (
     <Link href={href}>
       <a>
-        <li className="flex flex-row items-center hover:shadow hover:text-pacific-coast rounded-md py-6 pr-4 group relative">
+        <li className="flex flex-row items-center hover:shadow text-gray-700 hover:text-pacific-coast rounded-md py-6 pr-4 group relative">
           {/* Closed Book */}
           <svg
             className="mx-4 group-hover:opacity-0"
