@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const PersonalInfo: React.FC = () => {
   return (
-    <div className="flex justify-center items-center w-screen p-16">
+    <div className="flex justify-center items-center w-screen p-16 md:scale-125 transform">
       <Link href="https://github.com/ratoru">
         <a className="m-6 text-gray-900 hover:text-pacific-coast">
           <svg

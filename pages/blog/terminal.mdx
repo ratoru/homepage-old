@@ -1,13 +1,18 @@
----
-title: My clean and simple terminal setup
-published: true
-datePublished: 11/12/2021
-author: Raphael Ruban
-authorPhoto: /personal-picture.png
-canonicalUrl: https://ratoru.com/blog/terminal
----
+import Layout from "../../components/Layout";
+import { raphael } from "/util/authors";
 
-![terminal-setup](/blog-img/terminal-setup.png)
+export const meta = {
+  title: "My clean and simple terminal setup",
+  description: "Discover how to make your terminal presentable.",
+  date: "2021-11-12T19:45:00.0Z",
+  url: "terminal",
+  image: "terminal/terminal-setup.png",
+  authors: [raphael],
+};
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;
+
+![terminal-setup](/blog/terminal/terminal-setup.png)
 
 ## The Terminal
 
@@ -54,11 +59,11 @@ A nice theme brings it all together. To install these download the `.itermcolors
 
 - [Nord](https://github.com/arcticicestudio/nord-iterm2) - Beautiful, subtle color scheme.
 
-![iterm-color](/blog-img/iterm-color.png)
+![iterm-color](/blog/terminal/iterm-color.png)
 
 - [Snazzy](https://github.com/sindresorhus/iterm2-snazzy) - Slightly more vibrant than Nord.
 
-![snazzy-color](/blog-img/snazzy-color.png)
+![snazzy-color](/blog/terminal/snazzy-color.png)
 
 Other good options are Raycast Light / Dark. A full list can be found [here](https://github.com/mbadolato/iTerm2-Color-Schemes#screenshots).
 
