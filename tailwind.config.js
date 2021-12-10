@@ -16,6 +16,9 @@ module.exports = {
               '&:hover': {
                 color: "hsl(5, 96%, 70%)",
               }
+            },
+            blockquote: {
+              
             }
           }
         }
