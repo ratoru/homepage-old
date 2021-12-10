@@ -57,6 +57,10 @@ export default function Home() {
               href="/blog/terminal"
               title="My clean and simple terminal setup"
             />
+            <BlogListElem
+              href="/blog/productivity"
+              title="MacOS Productivity Hacks"
+            />
           </ul>
         </div>
         <PersonalInfo />

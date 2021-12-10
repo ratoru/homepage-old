@@ -8,7 +8,7 @@ export const BackButton: React.FC = () => {
         <a style={{ letterSpacing: "0.03em" }}>
           <img
             src="/icons/chevron-left.svg"
-            className="pb-1 group-hover:-translate-x-3 inline transform transition ease-in-out duration-100"
+            className="pb-1 -translate-x-3 inline transition-all ease-in-out duration-100"
           />
           HOME
         </a>

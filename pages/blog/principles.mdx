@@ -1,7 +1,7 @@
+import Layout from "../../components/Layout";
 import { raphael } from "/util/authors";
-import { metaType } from "/util/meta";
 
-export const meta: metaType = {
+export const meta = {
   title: "My Principles",
   description: "Hi! Dive into the prinicples that guide my life.",
   date: "2021-04-12T19:45:00.0Z",
@@ -9,6 +9,8 @@ export const meta: metaType = {
   image: "",
   authors: [raphael],
 };
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;
 
 This is a collection of principles that guide every decision I make in my life. I share these openly in order to create a sense of accountability. Maybe you will disagree with one or some of these. I look forward to letting you convince me to update it. With a bit of luck, you will also be inspired to think about your own life principles. These can be especially useful during hard times - when one tends to lose track of who one wants to be. As you'll soon see, I don't believe I know what is best for you. So, please question everything you read here.
 
@@ -78,7 +80,7 @@ This too shall pass.
 
 As Ray Dalio said "evolving is life’s greatest accomplishment and its greatest reward." In order to improve one has to try and fail first since "it is a fundamental law of nature that in order to gain strength one has to push one's limits, which is painful". To get the most out of these failures, be mindful and remember that **Pain + Reflection = Progress**.
 
-![improve-cycle](/blog-img/dalio-improve-cycle.jpg)
+![improve-cycle](/blog/dalio-improve-cycle.jpg)
 
 Cherish the art of thoughtful disagreement.
 
