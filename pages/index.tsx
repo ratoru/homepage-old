@@ -18,7 +18,7 @@ export default function Home() {
           property="og:description"
           content="Hi! I'm Raphael and this is my homepage."
         />
-        <meta property="og:image" content="https://ratoru.com/rtr-logo.svg" />
+        <meta property="og:image" content="https://ratoru.com/RTR-logo.svg" />
 
         <title>Raphael Ruban</title>
       </Head>
@@ -27,7 +27,7 @@ export default function Home() {
           <div className="text-center mt-16">
             <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 font-serif">
               <span>Hi, I'm </span>
-              <img src="/rtr-logo.svg" className="inline h-24 md:h-28 -mr-2" />
+              <img src="/RTR-logo.svg" className="inline h-24 md:h-28 -mr-2" />
               <span>aphael!</span>
             </h1>
             <p className="text-lg md:text-2xl text-gray-700 mt-12">

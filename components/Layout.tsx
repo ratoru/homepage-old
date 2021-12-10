@@ -9,7 +9,7 @@ export default function Layout({ children, meta }) {
     <>
       <Head>
         <title>{meta.title}</title>
-        <link rel="shortcut icon" type="image/svg+xml" href="/rtr-logo.svg" />
+        <link rel="shortcut icon" type="image/svg+xml" href="/RTR-logo.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         <meta
