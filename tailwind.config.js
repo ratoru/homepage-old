@@ -8,6 +8,18 @@ module.exports = {
         "pacific-coast": "hsl(211, 36%, 53%)",
         "living-coral": "hsl(5, 96%, 70%)",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            a: {
+              color: "hsl(211, 36%, 53%)",
+              '&:hover': {
+                color: "hsl(5, 96%, 70%)",
+              }
+            }
+          }
+        }
+      }
     },
   },
   variants: {},
