@@ -17,9 +17,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   description,
 }) => {
   return (
-    <div className="flex flex-row mt-4 bg-gray-50 rounded-lg max-w-sm shadow-md p-10">
+    <ul className="flex flex-row mt-4 bg-gray-50 rounded-lg max-w-sm shadow-md p-10">
       <div className="w-1/3 flex items-center">
-        <img src={imgSrc} className="w-full" />
+        <img src={imgSrc} className="w-full" alt={`${title}'s logo`} />
       </div>
       <div className="flex flex-col w-2/3 ml-10">
         <Link href={href}>
@@ -32,6 +32,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         <div className="text-gray-400 mt-1">{tags}</div>
         <p className="text-gray-700 mt-4">{description}</p>
       </div>
-    </div>
+    </ul>
   );
 };

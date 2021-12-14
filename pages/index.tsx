@@ -11,23 +11,32 @@ export default function Home() {
         <link rel="shortcut icon" type="image/svg+xml" href="/RTR-logo.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#d8dee9" />
-        <meta property="og:url" content={"https://ratoru.com"} />
+        <meta property="og:url" content="https://ratoru.com" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Raphael's Homepage" />
         <meta
           property="og:description"
-          content="Hi! I'm Raphael and this is my homepage."
+          content="Hi, I'm Raphael. Learn about what makes me unique on my homepage."
         />
-        <meta property="og:image" content="https://ratoru.com/RTR-logo.svg" />
+        <meta property="og:image" content="https://ratoru.com/rtr-logo.png" />
+        <link rel="apple-touch-icon" href="/rtr-logo.png" />
 
         <title>Raphael Ruban</title>
+        <meta
+          name="description"
+          content="Hi, I'm Raphael. Learn about what makes me unique on my website. "
+        />
       </Head>
       <div className="font-sans">
         <div className="flex flex-col w-full items-center">
           <div className="text-center mt-16">
             <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 font-serif">
               <span>Hi, I'm </span>
-              <img src="/RTR-logo.svg" className="inline h-24 md:h-28 -mr-2" />
+              <img
+                src="/RTR-logo.svg"
+                className="inline h-24 md:h-28 -mr-2"
+                alt="Ratoru's R logo"
+              />
               <span>aphael!</span>
             </h1>
             <p className="text-lg md:text-2xl text-gray-700 mt-12">

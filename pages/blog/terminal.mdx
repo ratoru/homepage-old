@@ -12,6 +12,8 @@ export const meta = {
 
 export default ({ children }) => <Layout meta={meta}>{children}</Layout>;
 
+# My clean and simple terminal setup
+
 ![terminal-setup](/blog/terminal/terminal-setup.png)
 
 ## The Terminal
@@ -77,9 +79,12 @@ Since your escape key is one of your most used keys, but is not that accessible,
 
 ### Your `~.vimrc` file
 
-If you are in your root directory and `ls -a` you should be able to see you `~.vimrc` file. This is the settings file for vim. You can check out mine below, even though I only use a small subset of all the available settings. Please make sure that you **comment** any setting you put in yours. Believe me, after 3 months you won't remember what everything does.
+If you are in your root directory and `ls -a` you should be able to see you `~.vimrc` file. This is the settings file for vim. You can check out mine below, even though I only use a small subset of all the available settings.
+(Currently having trouble displaying it, correctly.)
+Please make sure that you **comment** any setting you put in yours. Believe me, after 3 months you won't remember what everything does.
+You may also check out the plug-in [vim match-up](https://github.com/andymass/vim-matchup), which lets you jump from an `if` to the corresponding `else` with `%`.
 
-```.vimrc
+<!-- ```
 "  Set-up relative and absolute line number handling
 "  ------------------------------------------------
    set number
@@ -109,7 +114,7 @@ If you are in your root directory and `ls -a` you should be able to see you `~.v
 "  ------------------------------------------------
    syntax on
    set showmatch        " highlight matching [{()}]
-```
+``` -->
 
 ## On My Radar
 

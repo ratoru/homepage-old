@@ -10,14 +10,16 @@ module.exports = {
         "pacific-coast": "hsl(211, 36%, 53%)",
         "living-coral": "hsl(5, 96%, 70%)",
       },
-      typography: (theme) => ({
+      typography:{
         DEFAULT: {
           css: {
             a: {
               color: '#5b84b1',
+              "text-decoration": "none",
               "&:hover": {
-                color: "fc766a",
-              }
+                color: "#fc766a !important",
+                "text-decoration": "underline !important",
+              },
             },
             code: {
               backgroundColor: "#f1f5f9",
@@ -30,10 +32,10 @@ module.exports = {
             "code::after": {
               content: '""',
               "padding-right": "0.25rem",
-            }
+            },
           },
         },
-      }),
+      },
     }
   },
   plugins: [
