@@ -11,7 +11,7 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({ date }) => {
   return (
     <header className="flex flex-col pt-16">
-      <div className="flex flex-row justify-between mb-8 md:mb-12">
+      <div className="flex flex-row justify-between items-center mb-8 md:mb-12">
         <Link href="/">
           <a className="hover:-translate-x-3 transition-all ease-in-out duration-100">
             &larr; Home

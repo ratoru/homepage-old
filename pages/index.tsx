@@ -21,7 +21,7 @@ export default function Home() {
         <meta property="og:image" content="https://ratoru.com/rtr-logo.png" />
         <link rel="apple-touch-icon" href="/rtr-logo.png" />
 
-        <title>Raphael Ruban</title>
+        <title>Raphael's Home</title>
         <meta
           name="description"
           content="Hi, I'm Raphael. Learn about what makes me unique on my website. "
